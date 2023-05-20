@@ -1,0 +1,87 @@
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 40px;
+    padding: 0 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .search-bar input {
+    border: none;
+    flex: 1;
+    height: 100%;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    background-color: #f2f2f2;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .search-bar button:hover {
+    background-color: #d9d9d9;
+  }
+.NavbarItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 5px 15px 0 rgb(0, 0, 0);  
+    width: 100%;
+    height: 80px;  
+    border-radius: 13px;
+}
+
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(7,auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links,.navbar-logo {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+.nav-links:hover {
+    background-color: #01959a;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links-sign {
+    padding: 0.5rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-links-sign:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+
+ 

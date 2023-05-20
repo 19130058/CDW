@@ -1,0 +1,75 @@
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  .image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .content {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .author {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .favorite-btn {
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .favorite-btn:hover {
+    background-color: #d9d9d9;
+  }
+
+  .favorite-btn {
+  background-color: #f2f2f2;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.favorite-btn:hover {
+  background-color: #d9d9d9;
+}
+
+.favorite-btn[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
