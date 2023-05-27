@@ -1,0 +1,88 @@
+.manage-container {
+  display: inline-flexbox;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.manageform {
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .manageform th,
+  .manageform td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .manageform th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .manageform tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .manageform tr:hover {
+    background-color: #ddd;
+  }
+
+
+  .custom-modal {
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-modal .modal-header {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .custom-modal .modal-title {
+    font-weight: bold;
+  }
+  
+  .custom-modal .modal-body {
+    padding: 20px;
+  }
+  
+  .custom-form {
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-form label {
+    font-weight: bold;
+  }
+  
+  .custom-form input,
+  .custom-form textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .custom-form input:focus,
+  .custom-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #007bff;
+    border-color: #007bff;
+  }
+  
+  .custom-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .custom-form button[type="submit"]:hover {
+    background-color: #0069d9;
+  }

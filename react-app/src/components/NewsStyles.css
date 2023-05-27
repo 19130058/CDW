@@ -8,6 +8,7 @@
     justify-content: space-between;
     padding: 20px;
     background-color: #f2f2f2;
+    min-height: 100vh;
     height: 100%; 
     margin: 0 auto;
     
@@ -33,10 +34,11 @@
     margin-right: 20px;
   }
   
-  .news-list li h {
+  .news-list li h3 {
     margin: 0;
     font-size: 1.2rem;
     flex: 1;
+    color: aqua;
   }
 
 .container {
@@ -54,7 +56,7 @@
     margin-right: 20px;
   }
   
-  .content {
+  .title {
     flex: 1;
   }
   

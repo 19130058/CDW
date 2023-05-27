@@ -19,10 +19,14 @@ class Navbar extends Component {
                     <ul className="list">
                         {MenuItems.map((item, index) => {
                         return (
+                        
                         <li key={index}> 
                             <Link className={item.cName} to={item.url}>{item.title}</Link>
                         </li>    
                         )})}
+                        <li key={MenuItems.length+1}> 
+                            <Link className="nav-links-sign" to="/Login">Log In</Link>
+                        </li>
                     </ul>
                 </div>
             </nav>

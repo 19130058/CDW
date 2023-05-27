@@ -12,7 +12,13 @@ export const MenuItems = [
       
     },
     {
-        title: "Sport",
+        title: "Business",
+        url:"/Business",
+        cName: " nav-links",
+      
+    },
+    {
+        title: "Sport", 
         url:"/Sport",
         cName: " nav-links",
       
@@ -28,13 +34,7 @@ export const MenuItems = [
         url:"/LifeStyle",
         cName: " nav-links",
   
-    },
-    {
-        title: "Log In",
-        url:"/Login",
-        cName: " nav-links-sign",
-    
-    },
+    }
     
 ]
 
